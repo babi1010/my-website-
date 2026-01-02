@@ -96,4 +96,54 @@ footer { text-align:center; padding:80px; background:#0a0515; font-size:19px; }
   .hero-img img { width:340px; }
   .hero-content h1 { font-size:52px; }
   .cv-btn { display:block; margin:30px auto; width:85%; text-align:center; }
+  /* PROFESSIONAL CONTACT FORM STYLES (DARK THEME) */
+.contact-form {
+  max-width:720px;
+  margin:0 auto;
+  display:grid;
+  gap:24px;
+}
+.contact-form input, .contact-form textarea {
+  padding:18px 24px;
+  background:var(--dark);
+  border:2px solid var(--purple);
+  border-radius:16px;
+  color:white;
+  font-size:18px;
+  transition:0.3s;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color:var(--pink);
+  outline:none;
+  box-shadow:0 0 12px rgba(233,30,99,0.3);
+}
+.contact-form button {
+  padding:18px 40px;
+  background:var(--pink);
+  color:white;
+  border:none;
+  border-radius:50px;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.4s;
+}
+.contact-form button:hover {
+  transform:translateY(-4px);
+  box-shadow:0 12px 24px rgba(233,30,99,0.4);
+}
+.contact-info {
+  margin-top:50px;
+  font-size:20px;
+}
+.contact-info a {
+  color:var(--pink);
+  text-decoration:none;
+  transition:0.3s;
+}
+.contact-info a:hover {
+  color:white;
+}
+
+
+  
 }
